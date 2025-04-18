@@ -95,7 +95,7 @@ import java.util.concurrent.TimeUnit;
     /**
      * 通过设置特殊value处理缓存穿透的情况
      * @param id
-     * @return
+     * @return  
      */
     private Shop queryWithPassThrough(Long id){
         String cacheKey = getShopCacheKey(id);
